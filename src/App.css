@@ -16,7 +16,7 @@ body {
   padding: 5px;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -33,7 +33,7 @@ body {
 
 .live{
   margin-bottom: -10px;
-  margin-right: 100px;
+  margin-right: 70px;
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
 }
@@ -49,22 +49,23 @@ body, html{
 }
 
 .container0 {
-  margin-left: -550px;
-} 
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
 
 
 .container3 {
   display: flex;
-  justify-content: space-around;
-  margin-left: -500px;
-  margin-top: 30px;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
 .center {
   width: 180px;
   height: 60px; 
   position: absolute;
-}
+} 
 
 .btn {
   width: 180px;
@@ -74,6 +75,7 @@ body, html{
   border: 1px solid #E2DCC8;
   outline: none;
   transition: 1s ease-in-out;
+  color: white;
 }
 
 svg {
@@ -120,7 +122,7 @@ svg {
 .container2{
   margin-left: -170px;
   margin-top: 50px;
-} 
+}  
 
 
 .prehistory {
@@ -146,21 +148,21 @@ svg {
   justify-content: center;
   color: #F1F1F1;
   font-size: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
 .icss {
   margin-left: 5px;
   margin-right: 5px;
-}
+} 
 
 
-.containerButtonKids {
+ .containerButtonKids {
   display: flex;
   justify-content: space-around;
   margin-left: 500px;
-}
+} 
 
 
 .col1 {
@@ -173,34 +175,35 @@ svg {
   top: 50;
   margin-left: 20;
   min-width: 100%;
-  min-height: 70%;
-  margin-top: 20px;
+  min-height: 100%;
   /* z-index: -10; */
 }
 
 
 .photo {
   display: inline-block;
-  justify-content: space-around;
-  width: 500px;
+  justify-content: space-around; 
+  width: 700px;
   image-rendering: auto;
-  margin: 30px;
-  margin-left: 70px;
+   margin-top: 30px;
+  margin-left: 600px; 
+  border-radius: 50px;
 } 
 
-.photo1 {
+/* .photo1 {
   margin-left: 20;
   min-width: 100%;
-  min-height: 70%;
+  min-height: 50%;
   margin-top: 100px;
   border-radius: 50px;
-}
+} */
+
+
 
 
 .row {
   margin-top: 50px;
-}
-
+} 
 
 .contactcss, h5 {
   font-family: 'Montserrat', sans-serif;          
@@ -231,4 +234,45 @@ svg {
   color: white;
   display: flex;
   justify-content: center;
+}
+
+.datacss {
+  margin-top: -20px;
+}
+
+.datacss2 {
+  margin-top: 210px;
+}
+
+
+h3{
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 20px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+
+
+.containerOnThePhoto {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.btn3 {
+  margin-top: 50px;
+  border: none;
+  color: #232323;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.previous, .next {
+  color: white;
+  background-color: #100F0F;
+  border: black;
 }

@@ -1,11 +1,36 @@
 import './App.css';
 import * as React from 'react';
+import { useState } from 'react';
+import { data } from './dataForPhoto';
 
 
 
 
 
 function Home2() {
+
+  const [person, setPerson] = useState(0);
+  const {photo} = data[person];
+
+  const previousPerson = () =>{
+    setPerson((person => {
+      person --;
+      if (person < 0) {
+      return data.length - 1;
+      }
+      return person;
+    }))
+  }
+
+  const nextPerson = () => {
+    setPerson((person =>{
+      person ++;
+      if (person > data.length - 1) {
+        person = 0;
+      }
+      return person;
+    }))
+  }
 return(
   <div>
     <div className='bigcontainer'>                            
@@ -67,24 +92,39 @@ return(
         
         
         
-        
+    {/* <div id="containerOnThePhoto">
+    <button id="back" class="btn2">Back</button>
+    <img id="pictures" src="https://media.istockphoto.com/id/1154065412/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BF%D1%83%D1%81%D1%82%D0%BE%D0%B9-%D1%87%D0%B5%D1%80%D0%BD%D0%BE-%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9-%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BC%D0%B0%D0%BA%D0%B5%D1%82-%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9-%D0%B1%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B8-%D0%B2%D0%B8%D0%B4-%D1%81%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B8.jpg?s=612x612&w=0&k=20&c=es6QyH32KZaabgS9qgXZyI5IRs-dDW_juW6YVZuBUAQ=" alt="nyc"/>
+    <button id="next" class="btn2">Next</button>
+    <p className='equipment'>ты можешь заказать себе оборудование</p>
+    </div> */}
         
      
       
  
         
-        <div>
+       {/* <div>
         <img src="https://media.istockphoto.com/id/1154065412/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BF%D1%83%D1%81%D1%82%D0%BE%D0%B9-%D1%87%D0%B5%D1%80%D0%BD%D0%BE-%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9-%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BC%D0%B0%D0%BA%D0%B5%D1%82-%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9-%D0%B1%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B8-%D0%B2%D0%B8%D0%B4-%D1%81%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B8.jpg?s=612x612&w=0&k=20&c=es6QyH32KZaabgS9qgXZyI5IRs-dDW_juW6YVZuBUAQ=" alt="foto" className='photo'/>
         <img src="https://media.istockphoto.com/id/1157910915/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B1%D0%BE%D0%B4%D0%B8%D0%B1%D0%B8%D0%BB%D0%B4%D0%B8%D0%BD%D0%B3-%D1%81%D1%82%D0%B5%D1%80%D0%B6%D0%B5%D0%BD%D1%8C.jpg?s=612x612&w=0&k=20&c=3kjiN8HSzQuK2zwj8yajkdxwyVlaredEIzktuMbW9IQ=" alt="foto" className='photo'/>
         <img src="https://media.istockphoto.com/id/485478674/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B1%D0%B5%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B4%D0%BE%D1%80%D0%BE%D0%B6%D0%BA%D0%B0-%D0%B8%D0%B7%D0%BE%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BD%D0%B0-%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC-%D1%84%D0%BE%D0%BD%D0%B5.jpg?s=612x612&w=0&k=20&c=ceE0WFvoUajufJW1ZiH1zr_HW22K1nQohuXxdjLCj54=" alt="foto" className='photo'/>
         <p className='equipment'>ты можешь заказать себе оборудование</p>
-        </div>
+        </div>  */}
         
       
         
         
         
-        
+        <div>
+    
+
+    <div className='btn3 containerOnThePhoto'>
+      <button onClick={previousPerson} className='previous'>Previous</button>
+      <div className='containerOnThePhoto'>
+      <img src={photo} width="700px" alt='person'/>
+      </div>
+      <button onClick={nextPerson}className='next'>Next</button>
+    </div>
+</div>
         
 
         
