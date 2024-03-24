@@ -1,33 +1,8 @@
-import {
-     Link
-} from "react-router-dom";
+import './App.css';
 
-import { video } from "./data"
-
-function Fitness() {
-return (
-     <div className="containerBigFitness">
-     <div>
-          <h1 className="fitnesscss">детям</h1>
-     </div>
-     <div>
-     <div class="container0">
-     {
-          video['forkids'].map(item => (
-          <Link className="link" to={`/forkids/${item.title}`}>
-          <button className="btn">
-          <polyline points="179,1 179,59 1,59 1,1 179,1" className="bg-line" />
-          <polyline points="179,1 179,59 1,59 1,1 179,1" className="hl-line"/>
-               {item.type}
-          </button>
-          </Link>
-     ))
-     }
-     </div>
-     </div>
-     
-     <img src="https://media.istockphoto.com/id/1330898040/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%BC%D0%B0%D1%82%D1%8C-%D0%B8-%D0%B4%D0%BE%D1%87%D1%8C-%D0%BE%D0%B1%D0%BD%D0%B8%D0%BC%D0%B0%D1%8E%D1%82%D1%81%D1%8F.jpg?s=612x612&w=0&k=20&c=Kym8q469B29WcXu1fa-jGYQA4OaDIyQdzmQsw5km7Vg=" alt="forkids" className="photo" />
-     <camelCase class="container py-5">
+function Owner() {
+return(
+    <camelCase class="container py-5">
      <div class="row">
      <div class="col-12 col-md">
      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
@@ -51,8 +26,7 @@ return (
      </div>
      </div>
      </camelCase>
-     </div>
 )
 }
 
-export default Fitness;
+export default Owner;

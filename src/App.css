@@ -2,14 +2,12 @@ body {
   background-color: #100F0F; 
 }
 
-
 .nav {
   background-color: #0F3D3E;
   display: flex; 
   justify-content: flex-end; 
   padding: 10px;
 }
-
 
 .item, .equipment{
   color: #F1F1F1;
@@ -19,17 +17,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-
-
 .first {
   margin-right: auto;
 }
 
-
 .s {
   margin-right: 500px;
 }
-
 
 .live{
   margin-bottom: -10px;
@@ -54,7 +48,6 @@ body, html{
   margin-top: 50px;
 }
 
-
 .container3 {
   display: flex;
   justify-content: space-between;
@@ -65,7 +58,7 @@ body, html{
   width: 180px;
   height: 60px; 
   position: absolute;
-} 
+}
 
 .btn {
   width: 180px;
@@ -110,7 +103,6 @@ svg {
   justify-content: center;
 }
 
-
 .containerButton{
   display: flex;
   justify-content: space-around; 
@@ -118,19 +110,16 @@ svg {
   margin-top: 100px;
 }
 
-
 .container2{
   margin-left: -170px;
   margin-top: 50px;
-}  
-
+}
 
 .prehistory {
   display: block;
   justify-content: center;
   margin-top: 50px;
 }
-
 
 .en {
   margin: 20px;
@@ -142,7 +131,6 @@ svg {
   justify-content: center;
 }
 
-
 .prehistoryItem1, .prehistoryItem2, .prehistoryItem3{
   display: flex;
   justify-content: center;
@@ -151,24 +139,20 @@ svg {
   font-family: 'Montserrat', sans-serif;
 }
 
-
 .icss {
   margin-left: 5px;
   margin-right: 5px;
-} 
+}
 
-
- .containerButtonKids {
+.containerButtonKids {
   display: flex;
   justify-content: space-around;
   margin-left: 500px;
-} 
-
+}
 
 .col1 {
   padding: 10px;
 }
-
 
 .myClassnameVideo {
   position: fixed;
@@ -179,7 +163,6 @@ svg {
   /* z-index: -10; */
 }
 
-
 .photo {
   display: inline-block;
   justify-content: space-around; 
@@ -188,22 +171,11 @@ svg {
    margin-top: 30px;
   margin-left: 600px; 
   border-radius: 50px;
-} 
-
-/* .photo1 {
-  margin-left: 20;
-  min-width: 100%;
-  min-height: 50%;
-  margin-top: 100px;
-  border-radius: 50px;
-} */
-
-
-
+}
 
 .row {
   margin-top: 50px;
-} 
+}
 
 .contactcss, h5 {
   font-family: 'Montserrat', sans-serif;          
@@ -211,12 +183,10 @@ svg {
   font-size: 20px;                            
 }
 
-
 .equipment{
   display: flex;
   justify-content: center;
 }
-
 
 .y {
   margin-left: 100;
@@ -227,7 +197,6 @@ svg {
   text-decoration: none;
   color: white;
 }
-
 
 .wholeBodyCss {
   font-family: 'Montserrat', sans-serif;          
@@ -244,7 +213,6 @@ svg {
   margin-top: 210px;
 }
 
-
 h3{
   display: flex;
   justify-content: center;
@@ -254,14 +222,10 @@ h3{
   text-transform: uppercase;
 }
 
-
-
 .containerOnThePhoto {
   display: flex;
   justify-content: center;
 }
-
-
 
 .btn3 {
   margin-top: 50px;

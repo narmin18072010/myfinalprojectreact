@@ -1,4 +1,5 @@
-export const video = [
+export const video = {
+fitness: [
     {
         type: 'На все тело',
         video: 'https://www.youtube.com/embed/ESMmH-JfPCY',
@@ -7,7 +8,7 @@ export const video = [
     {
         type: 'На спину',
         video: 'https://www.youtube.com/embed/lQwpksc8Gf8',
-        title: 'on-the-back'   
+        title: 'on-the-back'
     },
     {
         type: 'На руки',
@@ -39,7 +40,52 @@ export const video = [
         video: 'https://www.youtube.com/embed/mTHyadfJ6UE',
         title: 'on-the-buttocks'
     }
-]
+],
+yoga: [
+    {
+        type: 'На все тело',
+        video: 'https://www.youtube.com/embed/K-RTsYIVhJ0',
+        title: 'whole-body'
+    },
+    {
+        type: 'Зарядка',
+        video: 'https://www.youtube.com/embed/2oxSXn4kIag',
+        title: 'charger'
+    },
+    {
+        type: 'Медитация',
+        video: 'https://www.youtube.com/embed/Oa6KtWWO2lY',
+        title: 'meditation'
+    },
+    {
+        type: 'На спину',
+        video: 'https://www.youtube.com/embed/73MLpw4CMQs',
+        title: 'on-the-back'
+    },
+    {
+        type: 'На ноги',
+        video: 'https://www.youtube.com/embed/4JdkNR72ZBU',
+        title: 'on-your-feet'
+    },
+    {
+        type: 'Для детей',
+        video: 'https://www.youtube.com/embed/lvjh3_maMLQ',
+        title: 'for-kids'
+    },
+],
+forkids: [
+    {
+        type: 'Зарядка',
+        video: 'https://www.youtube.com/embed/a3pMqrjRciI',
+        title: 'for-kids-charger',
+    },
+    {
+        type: 'Растяжка',
+        video: 'https://www.youtube.com/embed/1gK5fPj0QjU',
+        title: 'for-kids-stretching'
+    }
+],
+}
 
 
 
