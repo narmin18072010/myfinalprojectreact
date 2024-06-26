@@ -41,6 +41,9 @@ fitness: [
         title: 'on-the-buttocks'
     }
 ],
+WholeBodyFitness : [
+ 
+],
 yoga: [
     {
         type: 'На все тело',
@@ -71,7 +74,10 @@ yoga: [
         type: 'Для детей',
         video: 'https://www.youtube.com/embed/lvjh3_maMLQ',
         title: 'for-kids'
-    },
+    }
+],
+WholeBodyYoga : [
+
 ],
 forkids: [
     {

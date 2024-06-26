@@ -1,6 +1,6 @@
 body {
   background-color: #100F0F; 
-}
+} 
 
 .nav {
   background-color: #0F3D3E;
@@ -70,6 +70,27 @@ body, html{
   transition: 1s ease-in-out;
   color: white;
 }
+
+
+.btn2, .btn2yoga{
+  width: 180px;
+  height: 60px; 
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #E2DCC8;
+  outline: none;
+  transition: 1s ease-in-out;
+  color: white;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-left: 860px;
+}
+
+
+.btn2yoga{
+  margin-left: 870px;
+}
+
 
 svg {
   position: absolute;
@@ -239,4 +260,27 @@ h3{
   color: white;
   background-color: #100F0F;
   border: black;
+}
+
+
+.treny {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.buy{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: #F1F1F1;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+  color: white;
+  margin-left: 750px;
 }

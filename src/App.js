@@ -1,6 +1,6 @@
 import './App.css';
 import Home2 from './Home2';
-import './App.css';
+import React from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -12,6 +12,7 @@ import Yoga from './Yoga';
 import ForKids from './ForKids';
 import WholeBody from './WholeBody';
 import Footer from './Footer';
+
 
 function App() {
 return (
@@ -37,3 +38,6 @@ return (
 }
 
 export default App;
+
+
+
